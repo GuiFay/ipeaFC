@@ -1,0 +1,23 @@
+module.exports = {
+  riot: "riot",
+  queryString: "query-string",
+  route: ["riot-route", "default"],
+  axios: "axios",
+  createStore: ["redux", "createStore"],
+  applyMiddleware: ["redux", "applyMiddleware"],
+  combineReducers: ["redux", "combineReducers"],
+  createSagaMiddleware: ["redux-saga", "default"],
+  delay: ["redux-saga", "delay"],
+  put: ["redux-saga/effects", "put"],
+  takeEvery: ["redux-saga/effects", "takeEvery"],
+  takeLatest: ["redux-saga/effects", "takeLatest"],
+  take: ["redux-saga/effects", "take"],
+  fork: ["redux-saga/effects", "fork"],
+  all: ["redux-saga/effects", "all"],
+  call: ["redux-saga/effects", "call"],
+  $: "jquery",
+  jQuery: "jquery",
+  _: "lodash",
+  moment: "moment",
+  Popper: "popper.js"
+};

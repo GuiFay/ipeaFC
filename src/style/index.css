@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Raleway-Regular.ttf");
+}
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
