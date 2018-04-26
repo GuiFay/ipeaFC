@@ -1,8 +1,13 @@
 <app>
+    <navbar></navbar>
     <div class="container">
+        <home if='{getState().appReducer.home}'></home>
 
-        <h1>Cartola Ipea</h1>
+        <placar-geral if='{getState().appReducer.placargeral}'></placar-geral>
+
+
     </div>
+
 
     <script>
         this.mixin('reduxGlobal')
